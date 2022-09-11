@@ -15,6 +15,7 @@ public class BotStartUp {
            .setActivity(Activity.playing("!test"))
            .build();
            .addEventListeners(new PingPongBot());
+           1
     }
 
     private static void addEventListeners(PingPongBot pingPongBot) {
